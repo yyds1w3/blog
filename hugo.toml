@@ -1,0 +1,7 @@
+baseURL = 'https://yyds1w3.github.io/'
+languageCode = 'zh-cn'
+title = "Qingw's Blog"
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "auto" 
