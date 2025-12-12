@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: main # 注意：如果你是 master 分支，这里要改
+
+media_folder: "static/images" # 图片上传位置
+public_folder: "/images"      # 图片在文章中的引用路径
+
+# 设置中文界面
+locale: "zh_CN"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "content/posts" # 你的文章存放位置
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 文件名格式
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "草稿", name: "draft", widget: "boolean", default: false}
+      - {label: "标签", name: "tags", widget: "list", required: false}
+      - {label: "摘要", name: "summary", widget: "text", required: false}
+      - {label: "正文", name: "body", widget: "markdown"}
