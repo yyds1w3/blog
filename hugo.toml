@@ -1,7 +1,46 @@
-baseURL = 'https://yyds1w3.github.io/'
-languageCode = 'zh-cn'
-title = "Qingw's Blog"
-theme = 'PaperMod'
+baseURL = "https://yyds1w3.github.io/"
+languageCode = "zh-cn"
+title = "Travel"  # 起个你喜欢的名字
+theme = "PaperMod"
 
 [params]
-    defaultTheme = "auto" 
+    # --- 核心外观 ---
+    defaultTheme = "auto"     # 跟随系统自动切换黑白主题
+    ShowCodeCopyButtons = true # 代码块显示“复制”按钮（写教程必备）
+    ShowShareButtons = false   # 底部不显示分享按钮（在这个时代略显鸡肋）
+    
+    # --- 首页个人简介 (Profile Mode) ---
+    [params.profileMode]
+    enabled = true
+    title = "Hello, I'm Qingw" # 首页大标题
+    subtitle = "专注于算法 / C++ / Linux 折腾日记" # 副标题
+    # imageUrl = "https://codeforces.com/userpic.codeforces.org/4525726/title/6166efe220e3483b.jpg" # 以后有了图床可以把这行注释解开
+    
+    # --- 社交链接 (显示在首页) ---
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yyds1w3"
+
+# --- 顶栏菜单 ---
+[[menu.main]]
+    name = "文章"
+    url = "/posts"
+    weight = 1
+[[menu.main]]
+    name = "搜索"
+    url = "/search"
+    weight = 2
+[[menu.main]]
+    name = "关于我"
+    url = "/about"
+    weight = 3
+
+# --- 代码高亮配置 (Chroma) ---
+[markup]
+    [markup.highlight]
+        noClasses = false
+        anchorLineNos = true
+        codeFences = true
+        guessSyntax = true
+        lineNos = true       # 显示行号，贴算法代码时很有用
+        style = "monokai"    # 代码配色，monokai 是经典的暗色风格
