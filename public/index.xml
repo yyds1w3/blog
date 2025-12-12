@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Qingw&#39;s Blog</title>
+    <title>Travel</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Qingw&#39;s Blog</description>
+    <description>Recent content on Travel</description>
     <generator>Hugo -- 0.152.2</generator>
-    <language>zh-cn</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 12 Dec 2025 18:25:48 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,6 +14,27 @@
       <pubDate>Fri, 12 Dec 2025 18:25:48 +0800</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello Arch Linux!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【题解】LeetCode 206. 反转链表</title>
+      <link>http://localhost:1313/posts/acm-note-01/</link>
+      <pubDate>Fri, 12 Dec 2025 18:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/acm-note-01/</guid>
+      <description>这是一道经典的链表题目，详细讲解了双指针法的实现细节。</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;hello-&#34;&gt;Hello! 👋&lt;/h2&gt;
+&lt;p&gt;I am a sophomore computer science student. I love &lt;strong&gt;Algorithms&lt;/strong&gt;, &lt;strong&gt;Arch Linux&lt;/strong&gt;, and &lt;strong&gt;C++&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;my-goals&#34;&gt;My Goals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reach 400 points in CCF CSP.&lt;/li&gt;
+&lt;li&gt;Master system-level programming.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to contact me via GitHub!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,46 +1,48 @@
 baseURL = "https://yyds1w3.github.io/"
-languageCode = "zh-cn"
-title = "Travel"  # 起个你喜欢的名字
+languageCode = "en-us"  # 关键点：这里改成美式英语
+title = "Travel"    # 标题也改成英文
+
 theme = "PaperMod"
 
 [params]
-    # --- 核心外观 ---
-    defaultTheme = "auto"     # 跟随系统自动切换黑白主题
-    ShowCodeCopyButtons = true # 代码块显示“复制”按钮（写教程必备）
-    ShowShareButtons = false   # 底部不显示分享按钮（在这个时代略显鸡肋）
+    defaultTheme = "auto"
+    ShowCodeCopyButtons = true
+    ShowShareButtons = false
     
-    # --- 首页个人简介 (Profile Mode) ---
+    # --- 首页个人简介 (英文) ---
     [params.profileMode]
     enabled = true
-    title = "Hello, I'm Qingw" # 首页大标题
-    subtitle = "专注于算法 / C++ / Linux 折腾日记" # 副标题
-    # imageUrl = "https://codeforces.com/userpic.codeforces.org/4525726/title/6166efe220e3483b.jpg" # 以后有了图床可以把这行注释解开
-    
-    # --- 社交链接 (显示在首页) ---
+    title = "Hello, I'm Coder"
+    subtitle = "Algorithms / C++ / Linux Enthusiast" # 副标题改成英文
+    imageUrl = "https://codeforces.com/userpic.codeforces.org/4525726/title/6166efe220e3483b.jpg" 
+
     [[params.socialIcons]]
     name = "github"
     url = "https://github.com/yyds1w3"
 
-# --- 顶栏菜单 ---
+# --- 顶栏菜单 (英文) ---
 [[menu.main]]
-    name = "文章"
+    name = "Posts"    # 文章 -> Posts
     url = "/posts"
     weight = 1
 [[menu.main]]
-    name = "搜索"
+    name = "Search"   # 搜索 -> Search
     url = "/search"
     weight = 2
 [[menu.main]]
-    name = "关于我"
+    name = "About"    # 关于我 -> About
     url = "/about"
     weight = 3
 
-# --- 代码高亮配置 (Chroma) ---
+# --- 代码高亮保持不变 ---
 [markup]
     [markup.highlight]
         noClasses = false
         anchorLineNos = true
         codeFences = true
         guessSyntax = true
-        lineNos = true       # 显示行号，贴算法代码时很有用
-        style = "monokai"    # 代码配色，monokai 是经典的暗色风格
+        lineNos = true
+        style = "monokai"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"] # 这一行最重要，开启 JSON 输出
