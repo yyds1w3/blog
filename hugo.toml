@@ -1,4 +1,4 @@
-baseURL = "https://yyds1w3.github.io/"
+baseURL = "https://enchanting-tartufo-88ef66.netlify.app/"
 languageCode = "en-us"  # 关键点：这里改成美式英语
 title = "Travel"    # 标题也改成英文
 
