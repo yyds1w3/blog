@@ -1,0 +1,12 @@
+[build]
+  # 告诉 Netlify 发布目录是 public
+  publish = "public"
+  # 告诉 Netlify 运行什么命令来构建
+  # --gc (垃圾回收) 和 --minify (压缩代码) 是生产环境的最佳实践
+  command = "hugo --gc --minify"
+
+[build.environment]
+  # 关键点！把下面的 0.125.0 改成你在第一步里查到的版本号
+  HUGO_VERSION = "0.152.2"
+  # 建议开启 Extended 版本，支持更多 CSS 特性，防止以后报错
+  HUGO_EXTENDED = "true"
