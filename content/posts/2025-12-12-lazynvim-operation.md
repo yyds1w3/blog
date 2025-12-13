@@ -26,6 +26,7 @@ tags:
 g + d,跳转到定义 (Go Definition),想看这个函数是怎么写的
 g + r,查找引用 (References),想看这个变量哪里用到了
 K (大写K),查看文档/悬浮提示,忘了 std::vector 怎么用？按一下
+Ctrl + o从库函数退回来， Ctrl + i退到库函数
 <Space> + c + r,重命名变量 (Rename),把 cnt 全局改成 count，智能的！
 <Space> + c + a,代码修复 (Code Action),代码报红了？按这个自动修
 <Space> + c + f,格式化代码 (Format),代码写乱了？一键美化
