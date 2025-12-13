@@ -6,6 +6,9 @@ tags:
   - Linux
 ---
 ```
+<Space> + s + k 内置搜索快捷键
+```
+```
 <Space> + e,打开/关闭左侧文件树 (Explorer),Explorer
 <Space> + f + f,查找文件 (Find Files),Find Files
 <Space> + f + r,打开最近的文件 (Recent),Find Recent
